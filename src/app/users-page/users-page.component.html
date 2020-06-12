@@ -1,0 +1,10 @@
+<mat-list >
+    <mat-list-item *ngFor="let users of usersData">
+        <mat-icon matListAvatar  aria-hidden="false" aria-label="Example home icon">person</mat-icon>
+        <h3 matLine> {{users.name}} </h3>
+        <p matLine>
+            <span style="text-align: center;">{{users.mobileno}}</span>
+            <span class="demo-2"> -- {{users.address}} </span>
+        </p>
+    </mat-list-item>
+</mat-list>
