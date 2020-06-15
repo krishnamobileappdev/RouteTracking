@@ -32,7 +32,7 @@ import { ServicesService } from './services.service';
     MaterialModule,
     HttpClientModule,
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyA0I-6muOMwK2i21IdCqK12u25tEg-b-J0',
+      apiKey: 'AIzaSyDXn5-9XngeURYMJxnqf2TltXhkLeReQT0',
       libraries: ["places"]
     }),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
